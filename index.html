@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Open Modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-2">
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">User id</label>
+            </div>
+            <div class="col-auto">
+              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">Nickname</label>
+            </div>
+            <div class="col-auto input-group">
+              <span class="input-group-text" id="basic-addon1">@</span>
+              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">Amount</label>
+            </div>
+            <div class="col-auto input-group">
+              <span class="input-group-text" id="basic-addon1">$</span>
+              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">Server</label>
+            </div>
+            <div class="col-auto">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select server</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">Transaction type</label>
+            </div>
+            <div class="form-check">
+              <input checked class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Single
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Multi
+              </label>
+            </div>
+          </div>
+
+          <div class="mb-2 visually-hidden" id="accounts">
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">Accounts</label>
+            </div>
+            <div class="col-auto">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select accounts</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">OKAY</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="./index.ts"></script>
+</body>
+
+</html>

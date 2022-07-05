@@ -1,0 +1,11 @@
+{
+  "name": "molimawka-bootstrap",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@crashmax/tsconfig": "^1.0.1",
+    "vite": "^2.9.13"
+  }
+}
